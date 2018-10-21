@@ -1,0 +1,350 @@
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: #b3072c;
+    color: aliceblue;
+}
+.menu a{
+    color: aliceblue;
+    margin-top: 20px;
+}
+.wall{
+    background-image: url(web.jpg);
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+}
+.wall1{
+    height: 500px;
+}
+.text{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 150px;
+}
+.text h2{
+    font-size: 50px;
+}
+.text h3{
+font-size: 34px;
+}
+.black{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+.row1{
+    padding-top: 70px;
+}
+.contact1 a{
+    display:block;
+    text-decoration: none;
+    color: silver;
+    line-height: 35px;
+    padding-left: 21px;
+}
+.icon .icon1{
+    color: silver;
+    padding-top: 13px;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid silver;
+    font-size: 18px;
+}
+.icon1:hover{
+    background-color: rgb(8, 58, 124);
+}
+.para{
+    color: silver;
+    font-size: 16px;
+    text-align: justify;
+}
+.input1{
+    background:  rgba(6, 6, 22, 0.63);
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(15, 9, 3, 0.685);
+}
+footer p{
+    padding-top: 25px;
+}
+.login{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(5, 5, 24, 0.411);
+    position: relative;
+    top: 56px;
+    color: aliceblue;
+}
+.login h6{
+
+    text-align: center;
+}
+.login span{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.registration{
+    width: 400px;
+    height: auto;
+    background-color: rgba(5, 5, 24, 0.411);
+    position: relative;
+    top: 56px;
+    color: aliceblue;
+}
+.registration h6{
+
+    text-align: center;
+}
+.registration span{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.menu2{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(52, 51, 129);
+    padding-top: 20px;
+}
+.bar{
+    background-color: silver;
+    width: 100%;
+    height: 50px;
+}
+.vertical{
+    width: 2px;
+    height: 670px;
+    background-color: silver;
+}
+.lalit img{
+    width: 355px;
+    height: 280px;
+}
+.lalit .move{
+    padding-left: 124px;
+}
+.lorem img{
+    widows: 100px;
+    height: 100px;
+}
+.lorem{
+    display: flex;
+}
+.lorem p{
+    font-size: 15px;
+}
+.add1{
+    width: 100%;
+    height: auto;
+    background-color: silver;
+}
+.changepass{
+    width: 400px;
+    height: 400px;
+}
+.input2{
+    background-color: aliceblue;
+}
+.option{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 600px){
+    .menu a {
+        font-size: 9px;
+    }
+    .menu {
+        height: 61px;
+        background-color: rgb(58, 6, 14);
+    }
+    .text h3 {
+        font-size: 9px;
+        margin-top: -120px;
+    }
+    .text h2 {
+        margin-top: -17px;
+        font-size: 12px;
+    }
+    .wall{
+    
+        width: 100%;
+        height: 150px;
+        
+    }
+    .sm1{
+        margin-top: -30px;
+    font-size: 11px;
+    background-color:rgb(63, 4, 14);
+    }
+    p {
+        font-size: 7px;
+    }
+    .para {
+        color: white;
+        font-size: 4px;
+    }
+    .contact1 a {
+        font-size: 8px;
+        line-height: 14px;
+        padding-left: 5px;
+    }
+    .icon .icon1 {
+        line-height: 0;
+    display: inline-block;
+    color: silver;
+    width: 20px;
+    height: 20px;
+    font-size: 9px;
+    }
+    .input1 {
+        width: 61px;
+        height: 25px;
+        font-size: 5px;
+    }
+    .sm2{
+        width: 61px;
+        font-size: 10px;
+        height: 27px;
+    }
+    .row1 {
+        padding-top: 21px;
+    }
+    .black {
+        height: 163px;
+    }
+    footer {
+        height: 46px;
+        background-color: rgba(75, 72, 68, 0.973);
+    }
+    footer p {
+        font-size: 11px;
+        padding-top: 14px;
+    }
+    .login {
+        width: 243px;
+        height: 200px;
+        top: 9px;
+    }
+    .login h6 {
+        margin-top: -12px;
+        font-size: 12px;
+    }
+    .inpt1{
+        font-size: 10px;
+    width: 212px;
+    }
+    .f1{
+        font-size: 12px;
+    line-height: 3px;
+    }
+    .btn1{
+        font-size: 11px;
+    height: 26px;
+    }
+    .wall2 {
+        height: 273px;
+    }
+    .login2 {
+    
+        height: 236px;
+        top: 21px;
+    }
+    .login .span1{
+        font-size: 11px;
+        display: flex;
+        padding-top: 17px;
+        padding-left: 14px;
+    }
+    .span1 p{
+        font-size: 11px;
+    }
+    .regi1{
+        font-size: 10px;
+    width: 242px;
+    height: auto;
+    background-color: rgba(5, 5, 24, 0.411);
+    position: relative;
+    top: 8px;
+    color: aliceblue;
+    }
+    .wall3{
+        height: auto;
+    }
+    .registration span {
+        margin-top: -11px;
+        padding-top: 0px;
+        padding-left: 17px;
+    }
+    .registration h6 {
+        margin-top: -10px;
+        font-size: 12px;
+    }
+    .art1 a{
+        font-size: 8px;
+    }
+    .menu2 {
+        width: 100%;
+        height: 54px;
+        background-color: #412812f6;
+        padding-top: 15px;
+    }
+    .art2 a{
+        font-size: 12px;
+    }
+    .bar{
+        height: 36px;
+    }
+    .lalit img {
+        width: 95px;
+        height: 87px;
+    }
+    .ind2 img{
+        width: 200px;
+    height: 114px;
+    }
+    .ind1 h6{
+        font-size: 8px;
+    }
+    .lalit .move {
+        padding-left: 45px;
+    }
+    .sm3{
+        font-size: 10px;
+    }
+    .lorem img {
+        width: 50px;
+        widows: 100px;
+        height: 47px;
+    }
+    .vertical{
+        height: 410px;
+    }
+    .changepass {
+        width: 293px;
+        height: 322px;
+    }
+    textarea.form-control {
+        height: 200px;
+    }
+    .add1 {
+        width: 100%;
+        height: 840px;
+        background-color: silver;
+    }
+    
+}
+
+
+
